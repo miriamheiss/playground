@@ -1,6 +1,6 @@
 library(tidyverse)
 library(plotly)
-
+library(MetBrewer)
 
 julyfourth <- julyfourthshootings %>% 
   ggplot(mapping = aes(x = number_killed,
