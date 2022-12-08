@@ -11,3 +11,5 @@ thing <- get_acs(geography = "state", table = "S2902", year = 2021)
 random_variable <- load_variables(year = 2021, dataset = "acs5")
 
 # B01001 is sex, age and race
+
+get_estimates(geography = "county", product = "components", state = "13", county = "Gwinnett", year = "2020")
