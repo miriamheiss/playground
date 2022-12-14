@@ -51,10 +51,5 @@ asdf <- cleanish %>%
   arrange(pct) %>% 
   mutate(state = fct_inorder(state))
 
-canvas_nebula(colors = c("pink", "orange", "white", "red"))
-canvas_nebula(colors = c("purple", "violet", "white", "slateblue"))
 
 
-
-canvas_petri(colors = c("powderblue", "white"))
-canvas_petri(colors = colorPalette("origami"))
